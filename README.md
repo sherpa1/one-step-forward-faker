@@ -10,6 +10,12 @@ Credits :
 - Faker (https://github.com/marak/Faker.js/)
 - Nodemon (https://nodemon.io/)
 
+Sources : 
+
+- Obésité dans le monde (INSERM) : https://www.inserm.fr/information-en-sante/dossiers-information/obesite
+- Obésité et sous-nutrition dans le monde (ONU) : https://news.un.org/fr/story/2019/12/1058351
+- Surpoids et obésité dans le monde : https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
+
 ---
 
 **Alexandre Leroux**
