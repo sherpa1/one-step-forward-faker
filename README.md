@@ -4,6 +4,14 @@ Script de génération de données fictives pour le remplissage de la base de do
 
 ---
 
+Credits : 
+
+- Axios (https://github.com/axios/axios)
+- Faker (https://github.com/marak/Faker.js/)
+- Nodemon (https://nodemon.io/)
+
+---
+
 **Alexandre Leroux**
 
 - _Mail_ : alex@sherpa.one

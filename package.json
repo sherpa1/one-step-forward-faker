@@ -4,6 +4,8 @@
   "description": "Génération de données fictives pour le remplissage de la base de données du projet One Step Forward",
   "main": "app.js",
   "scripts": {
+    "start":"node app.js",
+    "dev":"nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexandre Leroux <alex@sherpa.one> (https://sherpa.one)",
