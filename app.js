@@ -148,24 +148,29 @@ const get_fake_steps = (day, people) => {
         console.error(error);
     }
 
-    //create 10 steps stats for each people
-    for (const a_people of people) {
 
-        let n = 0;
-        while (n < 10) {
-
-            try {
-                await axios_instance.post('/steps', get_fake_steps(n, a_people));
-            } catch (error) {
-                console.error(error);
+    if(people.length>0){
+        //Create 10 steps stats for each people
+        for (const a_people of people) {
+    
+            let n = 0;
+            while (n < 10) {
+    
+                try {
+                    await axios_instance.post('/steps', get_fake_steps(n, a_people));
+                } catch (error) {
+                    console.error(error);
+                }
+    
+                n++;
             }
-
-            n++;
+    
         }
-
+    
+        console.log("insertion of step stats over the past 10 days for each people");
+    }else{
+        console.error('no people in database');
     }
-
-    console.log("insertion of step stats over the past 10 days for each people");
 
 
 })();

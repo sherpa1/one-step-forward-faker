@@ -3,6 +3,33 @@
 Script de génération de données fictives pour le remplissage de la base de données du projet "One Step Forward" (E-Santé & IoT)
 
 ---
+## Commandes utiles
+
+### Avant utilisation, installation des dépendances NPM : 
+
+```
+npm install
+```
+
+ou 
+
+```
+yarn
+```
+
+### Lancement du script 
+
+```
+npm start
+```
+
+Avec hot restarting :
+
+```
+npm run dev
+```
+
+---
 
 Credits : 
 
@@ -11,6 +38,7 @@ Credits :
 - Moment (https://momentjs.com/)
 - Nodemon (https://nodemon.io/)
 
+---
 Sources : 
 
 - Obésité dans le monde (INSERM) : https://www.inserm.fr/information-en-sante/dossiers-information/obesite
