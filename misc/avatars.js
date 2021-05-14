@@ -82,4 +82,4 @@ const avatars = [
 ];
 
 
-export default avatars;
+module.exports = avatars;
