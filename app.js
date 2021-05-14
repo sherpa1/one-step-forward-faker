@@ -162,7 +162,7 @@ const get_fake_steps = (day, people) => {
     }
 
 
-    if(people.length>0){
+    if(people != undefined && people.length>0){
         //Create 10 steps stats for each people
         for (const a_people of people) {
     
