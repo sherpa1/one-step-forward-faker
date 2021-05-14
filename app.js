@@ -4,6 +4,8 @@ const axios = require('axios');
 const faker = require('faker');
 const moment = require('moment');
 
+const avatars = require('./misc/avatars');
+
 const BMI_UNDERWEIGHT = "underweight";
 const BMI_NORMALWEIGHT = "normal";
 const BMI_OVERWEIGHT = "overweight";
@@ -104,7 +106,8 @@ const get_fake_people = () => {
         height: random_height,//cm
         weight: get_weight_according_to_height_and_bmi(random_height, random_bmi),//kg
         birthday: faker.date.past(current_year - random_birthday_year),
-        bmi: random_bmi
+        bmi: random_bmi,
+        avatar : avatars[Math.floor(Math.random()*(avatars.length-1))]//get random avatar
     };
 
     return someone;
