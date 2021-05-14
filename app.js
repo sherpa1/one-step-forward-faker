@@ -36,9 +36,7 @@ const random_int_from_interval = (min, max) => { // min and max included
 
 const current_year = new Date().getFullYear();
 
-const random_height = random_int_from_interval(140, 200);//returns a weight between 140 and 200 kg
 
-const random_birthday_year = random_int_from_interval(current_year - 80, current_year - 18);
 
 const random_with_probability = (probability) => {
     let i, sum = 0, r = Math.random();
@@ -105,6 +103,9 @@ const get_fake_people = () => {
     const gender = random_int_from_interval(0, 1);//get a random gender
 
     const random_bmi = BMI[random_with_probability({ 0: 0.1, 1: 0.4, 2: 0.4, 3: 0.1 })];//according to stats
+
+    const random_height = random_int_from_interval(140,210);
+    const random_birthday_year = random_int_from_interval(current_year - 80, current_year - 18);
 
     const someone = {
         firstname: faker.name.firstName(gender),//get a random firstname according to the given gender

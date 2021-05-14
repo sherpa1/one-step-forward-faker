@@ -47,6 +47,12 @@ Sources :
 
 - Niveau d'activité selon le nombre de pas effectués par jour : https://www.10000steps.org.au/articles/counting-steps/
 
+    Sedentary is less than 5,000 steps per day 
+    Low active is 5,000 to 7,499 steps per day
+    Somewhat active is 7,500 to 9,999 steps per day
+    Active is more than 10,000 steps per day
+    Highly active is more than 12,500 
+
 ---
 
 **Alexandre Leroux**
